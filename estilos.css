@@ -1,0 +1,23 @@
+
+body {
+    background-color:blue;
+}
+
+h1 {
+    color: aliceblue;
+    font-family: fantasy;
+}
+ 
+h2 { color: aliceblue;
+    font-family: monospace;
+
+}
+h3 {
+    color: aliceblue;
+    font-family: monospace;
+ }
+
+ footer{
+    color: aliceblue;
+    font-family: monospace; 
+}

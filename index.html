@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CONTADOR DE PALABRAS </title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="">
+</head>
+       <h1>Parcial Practica Profezionalizante 1</h1> <br>
+        <h2>IES 9-008 Manuel Belgrano - Sede Godoy Cruz</h2> <BR>
+        <h2>CONTADOR DE PALABRAS</h2>
+     <h3> ESTA PAGINA TE AYUDARA A CALCULAR LA CANTIDAD DE PALABRAS QUE PUEDES ESCRIBIR  </h3>
+    </head>
+    <body>
+        <script></script>
+     <form name="form_main">
+         <fieldset>
+         <legend>Contador de Palabras</legend>
+          <label for="text">Comience a escribir aqui:</label> <br>
+          <textarea name="text" id="text" cols="60" rows="20" oninput="countText()"></textarea> <br>
+          <label for="words">Palabras: </label><span id="words"></span> <br>
+         </fieldset>
+
+        
+     </form>
+     <script>
+     
+            function countText() {
+              let text = document.form_main.text.value;
+             console.log(text);
+             document.getElementById('words').innerText = countText.length;
+             }
+
+     </script>
+     
+    
+    </body> <br>
+    
+    <footer>ESTA PAGINA ES UNA CREACION DE  MARIO JAVIER VELAZQUEZ ALUMNO DE LA CARRERA DESARROLLO SOFTWARE</footer>
+
+</html>
